@@ -1,0 +1,319 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/*studentTable*/
+.login_container{
+  background: linear-gradient(50deg,skyblue,blue);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper{
+  background-color: #fff;
+  min-width: 350px;
+  min-height: 630px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.3) 0px 5px 20px,rgba(0,0,0,0.22) 0px 5px 20px;
+    
+
+}
+.title{
+  text-align: center;
+  font-size: 28px;
+  color: rgb(108, 103, 103);
+  margin: 20px 0 40px 0;
+}
+.name,.email,.password{
+  margin: 20px;
+  color:#969292;
+  font-size: 16px;
+}
+.social{
+  display: flex;
+  justify-content: center;
+}
+.msg{
+  text-align: center;
+  margin-top: 30px;
+  color: #969292;
+}
+.facebook,.google{
+  height: 40px;
+  width: 40px;
+  margin: 30px 10px 0px 10px;
+  cursor: pointer;
+}
+.facebook:hover,.google:hover{
+  opacity: 0.6;
+}
+.password{
+  margin-bottom: 40px;
+}
+.input{
+  height: 32px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom: 1px solid #969292;
+  margin-bottom: 10px;
+  }
+  input{
+    color: #656262;
+    
+  }
+  input[type=text],input[type=email]{
+    font-size: 16px;
+  }
+  .error{
+    color: red;
+   margin-bottom: -5px;
+  }
+  .submit{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 60px;
+    background:linear-gradient(to right,blue,rgb(39, 127, 162));
+    box-shadow: rgba(0,0,0,0.3) 0px 5px 20px,rgba(0,0,0,0.22) 0px 5px 20px;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .submit:hover{
+    opacity: 0.6;
+  }
+  button:active{
+    transform: translateY(2px);
+  }
+  .form-success{
+    display: flex;
+    color:rgb(34, 211, 34);
+    justify-content: center;
+    margin-top: 250px;
+    min-width: 370px;
+   opacity: 0.6;
+  }
+  @media(max-width:700px){
+    .app-wrapper{
+      width: 80%;
+      margin: auto;
+    }
+  }
+
+.container{
+  margin-top:2%;
+ 
+}
+.markSheet {
+  text-align: center;
+  margin: 30px;
+  color: rgb(0, 0, 162);
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.actions{
+  width: 20px;
+}
+.button {
+  
+  text-align: center;
+  margin-bottom: 20px;
+}
+.create-btn{
+  float: right;
+  width: fit-content;
+  display: flex;
+  justify-content: right;
+}
+.table td, .table th{
+  min-width: 150px;
+}
+/*Add*/
+.create{
+  
+  width: 45%;
+  margin: auto;
+  margin-top: 5%;
+  border: 1px solid rgb(214, 209, 209);
+  box-shadow: 2px 2px 4px rgb(173, 169, 169);
+  padding: 20px;
+  border-radius: 10px;
+}
+.submitBtn{
+  width:20%;
+  margin: auto;
+}
+h1{
+  color: rgb(30, 0, 255);
+  text-align: center;
+  margin: 30px;
+  margin-top: 4%;
+}
+
+
+ .editStudent{
+  width: 30%;
+  margin: auto;
+  margin-top: 5%;
+  border: 1px solid rgb(214, 209, 209);
+  box-shadow: 2px 2px 4px rgb(173, 169, 169);
+  padding: 20px;
+  border-radius: 10px;
+}
+.editButtons{
+  width:90%;
+  margin: auto;
+  }
+
+  /*search Box*/
+.search-create .form-control{
+  width: 25%;
+  height: 40px;
+  margin-right: 20px;
+}
+.search-create{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+}
+
+/* pagination*/
+.pagination span{
+  border: 2px solid rgb(115, 114, 148);
+  padding: 2px 10px;
+  font-size: 18px;
+  cursor: pointer;
+border-radius: 50%;
+margin: 3px;
+
+}
+
+.page-container{
+  margin: 10px;
+}
+.pagination{
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+
+ align-items: center;
+ justify-content: center;
+}
+img{
+  margin-left: 5px;
+  margin-bottom: 5px;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+}
+button{
+  border-radius: 20px;
+  border: none;
+  background: none;
+  color: #374cd5;
+  font-weight: 500;
+}
+
+button img{
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  
+}
+.active{
+  background-color: #7672a9;
+
+}
+
+.noData {
+  text-align: center;
+  width: 100%;
+  color: rgb(255, 38, 0);
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+.tableRow2 th input{
+  width: 100px;
+}
+.tableRow2 th input[type=text]{
+  font-size: 12px;
+  outline: none;
+  border: none;
+ 
+}
+.filter{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border:1px solid #7672a9;
+}
+.filter img{
+  width: 15px;
+  height: 15px;
+  margin-bottom: -2px;
+}
+.mat{
+  top: 20%;
+  width: 80%;
+  height:20%;
+  margin: auto;
+}
+.filterSearch input[type=text]{
+  border: none;
+  outline: none;
+ height: 30px;
+}
+.filterSearch img{
+  width: 15px;
+  height: 15px;
+  margin-bottom: -2px;
+}
+.filterSearch  .form-control{
+  border: 0;
+  box-shadow: none;
+}
+.filterSearch{
+  border-radius: 5px;
+  border: 1px solid rgb(149, 149, 243);
+  margin: 5px;
+  
+ display: flex;
+ align-items: center;
+ justify-content: space-between; 
+}
+.kjhk{
+  background-color: #d8a4f4;
+  background-color: #dbb4f0;
+  background: #fff6f6;
+
+  
+}
+.MuiTablePagination-selectLabel{
+ margin-top: 13px;
+ color: #a55bcd;
+ 
+}
+.MuiTablePagination-displayedRows{
+  margin-top: 15px;
+  color: #a55bcd;
+}
+.material-icons {
+  color: rgb(169, 98, 147);
+}
